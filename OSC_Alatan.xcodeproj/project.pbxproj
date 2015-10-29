@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20C676E11BE2449B00B977CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C676E01BE2449B00B977CF /* AppDelegate.swift */; };
+		20C676E31BE2449B00B977CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C676E21BE2449B00B977CF /* ViewController.swift */; };
+		20C676E61BE2449B00B977CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C676E41BE2449B00B977CF /* Main.storyboard */; };
+		20C676E81BE2449B00B977CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20C676E71BE2449B00B977CF /* Assets.xcassets */; };
+		20C676EB1BE2449B00B977CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C676E91BE2449B00B977CF /* LaunchScreen.storyboard */; };
+		20C676F61BE2449B00B977CF /* OSC_AlatanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C676F51BE2449B00B977CF /* OSC_AlatanTests.swift */; };
+		20C677011BE2449B00B977CF /* OSC_AlatanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C677001BE2449B00B977CF /* OSC_AlatanUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20C676F21BE2449B00B977CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C676D51BE2449B00B977CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C676DC1BE2449B00B977CF;
+			remoteInfo = OSC_Alatan;
+		};
+		20C676FD1BE2449B00B977CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20C676D51BE2449B00B977CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C676DC1BE2449B00B977CF;
+			remoteInfo = OSC_Alatan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20C676DD1BE2449B00B977CF /* OSC_Alatan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSC_Alatan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C676E01BE2449B00B977CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		20C676E21BE2449B00B977CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20C676E51BE2449B00B977CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20C676E71BE2449B00B977CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20C676EA1BE2449B00B977CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20C676EC1BE2449B00B977CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C676F11BE2449B00B977CF /* OSC_AlatanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSC_AlatanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C676F51BE2449B00B977CF /* OSC_AlatanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSC_AlatanTests.swift; sourceTree = "<group>"; };
+		20C676F71BE2449B00B977CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20C676FC1BE2449B00B977CF /* OSC_AlatanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSC_AlatanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20C677001BE2449B00B977CF /* OSC_AlatanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSC_AlatanUITests.swift; sourceTree = "<group>"; };
+		20C677021BE2449B00B977CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20C676DA1BE2449B00B977CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C676EE1BE2449B00B977CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C676F91BE2449B00B977CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C676D41BE2449B00B977CF = {
+			isa = PBXGroup;
+			children = (
+				20C676DF1BE2449B00B977CF /* OSC_Alatan */,
+				20C676F41BE2449B00B977CF /* OSC_AlatanTests */,
+				20C676FF1BE2449B00B977CF /* OSC_AlatanUITests */,
+				20C676DE1BE2449B00B977CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20C676DE1BE2449B00B977CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20C676DD1BE2449B00B977CF /* OSC_Alatan.app */,
+				20C676F11BE2449B00B977CF /* OSC_AlatanTests.xctest */,
+				20C676FC1BE2449B00B977CF /* OSC_AlatanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20C676DF1BE2449B00B977CF /* OSC_Alatan */ = {
+			isa = PBXGroup;
+			children = (
+				20C676E01BE2449B00B977CF /* AppDelegate.swift */,
+				20C676E21BE2449B00B977CF /* ViewController.swift */,
+				20C676E41BE2449B00B977CF /* Main.storyboard */,
+				20C676E71BE2449B00B977CF /* Assets.xcassets */,
+				20C676E91BE2449B00B977CF /* LaunchScreen.storyboard */,
+				20C676EC1BE2449B00B977CF /* Info.plist */,
+			);
+			path = OSC_Alatan;
+			sourceTree = "<group>";
+		};
+		20C676F41BE2449B00B977CF /* OSC_AlatanTests */ = {
+			isa = PBXGroup;
+			children = (
+				20C676F51BE2449B00B977CF /* OSC_AlatanTests.swift */,
+				20C676F71BE2449B00B977CF /* Info.plist */,
+			);
+			path = OSC_AlatanTests;
+			sourceTree = "<group>";
+		};
+		20C676FF1BE2449B00B977CF /* OSC_AlatanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20C677001BE2449B00B977CF /* OSC_AlatanUITests.swift */,
+				20C677021BE2449B00B977CF /* Info.plist */,
+			);
+			path = OSC_AlatanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20C676DC1BE2449B00B977CF /* OSC_Alatan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C677051BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_Alatan" */;
+			buildPhases = (
+				20C676D91BE2449B00B977CF /* Sources */,
+				20C676DA1BE2449B00B977CF /* Frameworks */,
+				20C676DB1BE2449B00B977CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSC_Alatan;
+			productName = OSC_Alatan;
+			productReference = 20C676DD1BE2449B00B977CF /* OSC_Alatan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20C676F01BE2449B00B977CF /* OSC_AlatanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C677081BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_AlatanTests" */;
+			buildPhases = (
+				20C676ED1BE2449B00B977CF /* Sources */,
+				20C676EE1BE2449B00B977CF /* Frameworks */,
+				20C676EF1BE2449B00B977CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C676F31BE2449B00B977CF /* PBXTargetDependency */,
+			);
+			name = OSC_AlatanTests;
+			productName = OSC_AlatanTests;
+			productReference = 20C676F11BE2449B00B977CF /* OSC_AlatanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20C676FB1BE2449B00B977CF /* OSC_AlatanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20C6770B1BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_AlatanUITests" */;
+			buildPhases = (
+				20C676F81BE2449B00B977CF /* Sources */,
+				20C676F91BE2449B00B977CF /* Frameworks */,
+				20C676FA1BE2449B00B977CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20C676FE1BE2449B00B977CF /* PBXTargetDependency */,
+			);
+			name = OSC_AlatanUITests;
+			productName = OSC_AlatanUITests;
+			productReference = 20C676FC1BE2449B00B977CF /* OSC_AlatanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20C676D51BE2449B00B977CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Alatan;
+				TargetAttributes = {
+					20C676DC1BE2449B00B977CF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					20C676F01BE2449B00B977CF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 20C676DC1BE2449B00B977CF;
+					};
+					20C676FB1BE2449B00B977CF = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 20C676DC1BE2449B00B977CF;
+					};
+				};
+			};
+			buildConfigurationList = 20C676D81BE2449B00B977CF /* Build configuration list for PBXProject "OSC_Alatan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20C676D41BE2449B00B977CF;
+			productRefGroup = 20C676DE1BE2449B00B977CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20C676DC1BE2449B00B977CF /* OSC_Alatan */,
+				20C676F01BE2449B00B977CF /* OSC_AlatanTests */,
+				20C676FB1BE2449B00B977CF /* OSC_AlatanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20C676DB1BE2449B00B977CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C676EB1BE2449B00B977CF /* LaunchScreen.storyboard in Resources */,
+				20C676E81BE2449B00B977CF /* Assets.xcassets in Resources */,
+				20C676E61BE2449B00B977CF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C676EF1BE2449B00B977CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C676FA1BE2449B00B977CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20C676D91BE2449B00B977CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C676E31BE2449B00B977CF /* ViewController.swift in Sources */,
+				20C676E11BE2449B00B977CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C676ED1BE2449B00B977CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C676F61BE2449B00B977CF /* OSC_AlatanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20C676F81BE2449B00B977CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20C677011BE2449B00B977CF /* OSC_AlatanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20C676F31BE2449B00B977CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C676DC1BE2449B00B977CF /* OSC_Alatan */;
+			targetProxy = 20C676F21BE2449B00B977CF /* PBXContainerItemProxy */;
+		};
+		20C676FE1BE2449B00B977CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20C676DC1BE2449B00B977CF /* OSC_Alatan */;
+			targetProxy = 20C676FD1BE2449B00B977CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20C676E41BE2449B00B977CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C676E51BE2449B00B977CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20C676E91BE2449B00B977CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20C676EA1BE2449B00B977CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20C677031BE2449B00B977CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		20C677041BE2449B00B977CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20C677061BE2449B00B977CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSC_Alatan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-Alatan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20C677071BE2449B00B977CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = OSC_Alatan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-Alatan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20C677091BE2449B00B977CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OSC_AlatanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-AlatanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSC_Alatan.app/OSC_Alatan";
+			};
+			name = Debug;
+		};
+		20C6770A1BE2449B00B977CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = OSC_AlatanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-AlatanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OSC_Alatan.app/OSC_Alatan";
+			};
+			name = Release;
+		};
+		20C6770C1BE2449B00B977CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OSC_AlatanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-AlatanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSC_Alatan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		20C6770D1BE2449B00B977CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = OSC_AlatanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-AlatanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OSC_Alatan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20C676D81BE2449B00B977CF /* Build configuration list for PBXProject "OSC_Alatan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C677031BE2449B00B977CF /* Debug */,
+				20C677041BE2449B00B977CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20C677051BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_Alatan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C677061BE2449B00B977CF /* Debug */,
+				20C677071BE2449B00B977CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C677081BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_AlatanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C677091BE2449B00B977CF /* Debug */,
+				20C6770A1BE2449B00B977CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20C6770B1BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_AlatanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20C6770C1BE2449B00B977CF /* Debug */,
+				20C6770D1BE2449B00B977CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20C676D51BE2449B00B977CF /* Project object */;
+}
