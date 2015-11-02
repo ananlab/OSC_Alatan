@@ -14,6 +14,7 @@
 		20C676EB1BE2449B00B977CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C676E91BE2449B00B977CF /* LaunchScreen.storyboard */; };
 		20C676F61BE2449B00B977CF /* OSC_AlatanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C676F51BE2449B00B977CF /* OSC_AlatanTests.swift */; };
 		20C677011BE2449B00B977CF /* OSC_AlatanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C677001BE2449B00B977CF /* OSC_AlatanUITests.swift */; };
+		639121FD226685439D1EE120 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDA223141EAB6051297BDCE9 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,9 @@
 		20C676FC1BE2449B00B977CF /* OSC_AlatanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSC_AlatanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C677001BE2449B00B977CF /* OSC_AlatanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OSC_AlatanUITests.swift; sourceTree = "<group>"; };
 		20C677021BE2449B00B977CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE49A4E88366C508AAB92E5 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5478D8C301FD41A89719F7F0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		FDA223141EAB6051297BDCE9 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639121FD226685439D1EE120 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E4BF49A977B9B79903A3D72 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDA223141EAB6051297BDCE9 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		20C676D41BE2449B00B977CF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +94,8 @@
 				20C676F41BE2449B00B977CF /* OSC_AlatanTests */,
 				20C676FF1BE2449B00B977CF /* OSC_AlatanUITests */,
 				20C676DE1BE2449B00B977CF /* Products */,
+				26751EF962C1528F1E3BF7C0 /* Pods */,
+				0E4BF49A977B9B79903A3D72 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,15 @@
 			path = OSC_AlatanUITests;
 			sourceTree = "<group>";
 		};
+		26751EF962C1528F1E3BF7C0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5478D8C301FD41A89719F7F0 /* Pods.debug.xcconfig */,
+				3FE49A4E88366C508AAB92E5 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20C677051BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_Alatan" */;
 			buildPhases = (
+				49A8DD459AF435D92CC8706B /* Check Pods Manifest.lock */,
 				20C676D91BE2449B00B977CF /* Sources */,
 				20C676DA1BE2449B00B977CF /* Frameworks */,
 				20C676DB1BE2449B00B977CF /* Resources */,
+				AB0FFDD4E852DED9423D17EB /* Embed Pods Frameworks */,
+				2EF8F3A743B05FEEDAE75F6A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EF8F3A743B05FEEDAE75F6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49A8DD459AF435D92CC8706B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0FFDD4E852DED9423D17EB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20C676D91BE2449B00B977CF /* Sources */ = {
@@ -395,6 +470,7 @@
 		};
 		20C677061BE2449B00B977CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5478D8C301FD41A89719F7F0 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSC_Alatan/Info.plist;
@@ -406,6 +482,7 @@
 		};
 		20C677071BE2449B00B977CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE49A4E88366C508AAB92E5 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSC_Alatan/Info.plist;
@@ -482,6 +559,7 @@
 				20C677071BE2449B00B977CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C677081BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_AlatanTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +568,7 @@
 				20C6770A1BE2449B00B977CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20C6770B1BE2449B00B977CF /* Build configuration list for PBXNativeTarget "OSC_AlatanUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +577,7 @@
 				20C6770D1BE2449B00B977CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
