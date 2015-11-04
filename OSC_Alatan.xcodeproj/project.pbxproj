@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		207251401BE87FF3002EEE28 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2072513F1BE87FF3002EEE28 /* RootViewController.swift */; };
+		207251441BE88689002EEE28 /* OSCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207251431BE88689002EEE28 /* OSCTabBarController.swift */; };
+		207251461BE886AB002EEE28 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207251451BE886AB002EEE28 /* SideMenuController.swift */; };
 		20C676E11BE2449B00B977CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C676E01BE2449B00B977CF /* AppDelegate.swift */; };
 		20C676E31BE2449B00B977CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C676E21BE2449B00B977CF /* ViewController.swift */; };
 		20C676E61BE2449B00B977CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20C676E41BE2449B00B977CF /* Main.storyboard */; };
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2072513C1BE87E0A002EEE28 /* OSC_Aalatan-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OSC_Aalatan-Bridging-Header.h"; sourceTree = "<group>"; };
+		2072513F1BE87FF3002EEE28 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		207251431BE88689002EEE28 /* OSCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCTabBarController.swift; sourceTree = "<group>"; };
+		207251451BE886AB002EEE28 /* SideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuController.swift; sourceTree = "<group>"; };
 		20C676DD1BE2449B00B977CF /* OSC_Alatan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSC_Alatan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20C676E01BE2449B00B977CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20C676E21BE2449B00B977CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +94,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2072513B1BE87D83002EEE28 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				20C676E41BE2449B00B977CF /* Main.storyboard */,
+				2072513F1BE87FF3002EEE28 /* RootViewController.swift */,
+				207251411BE8860F002EEE28 /* LeftSideMenu */,
+				207251421BE8860F002EEE28 /* TabBar */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		207251411BE8860F002EEE28 /* LeftSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				207251451BE886AB002EEE28 /* SideMenuController.swift */,
+			);
+			path = LeftSideMenu;
+			sourceTree = "<group>";
+		};
+		207251421BE8860F002EEE28 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				207251431BE88689002EEE28 /* OSCTabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		20C676D41BE2449B00B977CF = {
 			isa = PBXGroup;
 			children = (
@@ -112,11 +146,12 @@
 		20C676DF1BE2449B00B977CF /* OSC_Alatan */ = {
 			isa = PBXGroup;
 			children = (
+				2072513B1BE87D83002EEE28 /* Main */,
 				20C676E01BE2449B00B977CF /* AppDelegate.swift */,
 				20C676E21BE2449B00B977CF /* ViewController.swift */,
-				20C676E41BE2449B00B977CF /* Main.storyboard */,
 				20C676E71BE2449B00B977CF /* Assets.xcassets */,
 				20C676E91BE2449B00B977CF /* LaunchScreen.storyboard */,
+				2072513C1BE87E0A002EEE28 /* OSC_Aalatan-Bridging-Header.h */,
 				20C676EC1BE2449B00B977CF /* Info.plist */,
 			);
 			path = OSC_Alatan;
@@ -331,8 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				207251461BE886AB002EEE28 /* SideMenuController.swift in Sources */,
 				20C676E31BE2449B00B977CF /* ViewController.swift in Sources */,
+				207251441BE88689002EEE28 /* OSCTabBarController.swift in Sources */,
 				20C676E11BE2449B00B977CF /* AppDelegate.swift in Sources */,
+				207251401BE87FF3002EEE28 /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +412,7 @@
 				20C676E51BE2449B00B977CF /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		20C676E91BE2449B00B977CF /* LaunchScreen.storyboard */ = {
@@ -474,9 +513,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSC_Alatan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-Alatan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OSC_Alatan/OSC_Aalatan-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -486,9 +527,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = OSC_Alatan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Alatan.OSC-Alatan";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "OSC_Alatan/OSC_Aalatan-Bridging-Header.h";
 			};
 			name = Release;
 		};

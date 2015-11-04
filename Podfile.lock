@@ -1,10 +1,13 @@
 PODS:
   - Alamofire (3.1.1)
+  - RESideMenu (4.0.7)
 
 DEPENDENCIES:
   - Alamofire (~> 3.1.1)
+  - RESideMenu (~> 4.0.7)
 
 SPEC CHECKSUMS:
   Alamofire: 9b0a7188b961a03914a99304488bd226b0e46c0e
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
 
 COCOAPODS: 0.39.0
