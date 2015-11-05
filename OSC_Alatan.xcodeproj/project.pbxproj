@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		205D65D41BEB18690014FD4E /* OSCObjsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65D31BEB18690014FD4E /* OSCObjsViewController.swift */; };
+		205D65DF1BEB1A520014FD4E /* BlogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65DC1BEB1A520014FD4E /* BlogsViewController.swift */; };
+		205D65E01BEB1A520014FD4E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65DE1BEB1A520014FD4E /* NewsViewController.swift */; };
+		205D65E61BEB1B500014FD4E /* HorizonalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65E51BEB1B500014FD4E /* HorizonalTableViewController.swift */; };
+		205D65E81BEB1B710014FD4E /* TitleBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65E71BEB1B710014FD4E /* TitleBarView.swift */; };
+		205D65EA1BEB1BC80014FD4E /* SwipableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65E91BEB1BC80014FD4E /* SwipableViewController.swift */; };
+		205D65EC1BEB1D2C0014FD4E /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205D65EB1BEB1D2C0014FD4E /* Discover.storyboard */; };
+		205D65EF1BEB1D760014FD4E /* Homepage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205D65EE1BEB1D760014FD4E /* Homepage.storyboard */; };
+		205D65F11BEB1E5F0014FD4E /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65F01BEB1E5F0014FD4E /* DiscoverViewController.swift */; };
+		205D65F31BEB1EB40014FD4E /* HomepageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65F21BEB1EB40014FD4E /* HomepageViewController.swift */; };
 		207251401BE87FF3002EEE28 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2072513F1BE87FF3002EEE28 /* RootViewController.swift */; };
 		207251441BE88689002EEE28 /* OSCTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207251431BE88689002EEE28 /* OSCTabBarController.swift */; };
 		207251461BE886AB002EEE28 /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207251451BE886AB002EEE28 /* SideMenuController.swift */; };
@@ -38,6 +48,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		205D65D31BEB18690014FD4E /* OSCObjsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCObjsViewController.swift; sourceTree = "<group>"; };
+		205D65DC1BEB1A520014FD4E /* BlogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogsViewController.swift; sourceTree = "<group>"; };
+		205D65DE1BEB1A520014FD4E /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		205D65E51BEB1B500014FD4E /* HorizonalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizonalTableViewController.swift; sourceTree = "<group>"; };
+		205D65E71BEB1B710014FD4E /* TitleBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleBarView.swift; sourceTree = "<group>"; };
+		205D65E91BEB1BC80014FD4E /* SwipableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipableViewController.swift; sourceTree = "<group>"; };
+		205D65EB1BEB1D2C0014FD4E /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		205D65EE1BEB1D760014FD4E /* Homepage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Homepage.storyboard; sourceTree = "<group>"; };
+		205D65F01BEB1E5F0014FD4E /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		205D65F21BEB1EB40014FD4E /* HomepageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomepageViewController.swift; sourceTree = "<group>"; };
 		2072513C1BE87E0A002EEE28 /* OSC_Aalatan-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OSC_Aalatan-Bridging-Header.h"; sourceTree = "<group>"; };
 		2072513F1BE87FF3002EEE28 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		207251431BE88689002EEE28 /* OSCTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCTabBarController.swift; sourceTree = "<group>"; };
@@ -94,6 +114,81 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		205D65CE1BEB17290014FD4E /* 综合 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "综合";
+			sourceTree = "<group>";
+		};
+		205D65CF1BEB17450014FD4E /* 动弹 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "动弹";
+			sourceTree = "<group>";
+		};
+		205D65D01BEB17550014FD4E /* 用户 */ = {
+			isa = PBXGroup;
+			children = (
+				205D65ED1BEB1D6C0014FD4E /* 我 */,
+			);
+			path = "用户";
+			sourceTree = "<group>";
+		};
+		205D65D11BEB176F0014FD4E /* 发现 */ = {
+			isa = PBXGroup;
+			children = (
+				205D65EB1BEB1D2C0014FD4E /* Discover.storyboard */,
+				205D65F01BEB1E5F0014FD4E /* DiscoverViewController.swift */,
+			);
+			path = "发现";
+			sourceTree = "<group>";
+		};
+		205D65D21BEB18450014FD4E /* MainViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				205D65D31BEB18690014FD4E /* OSCObjsViewController.swift */,
+				205D65E41BEB1B500014FD4E /* SwipableViewController */,
+			);
+			path = MainViewControllers;
+			sourceTree = "<group>";
+		};
+		205D65DB1BEB1A520014FD4E /* 博客 */ = {
+			isa = PBXGroup;
+			children = (
+				205D65DC1BEB1A520014FD4E /* BlogsViewController.swift */,
+			);
+			path = "博客";
+			sourceTree = "<group>";
+		};
+		205D65DD1BEB1A520014FD4E /* 新闻 */ = {
+			isa = PBXGroup;
+			children = (
+				205D65DE1BEB1A520014FD4E /* NewsViewController.swift */,
+			);
+			path = "新闻";
+			sourceTree = "<group>";
+		};
+		205D65E41BEB1B500014FD4E /* SwipableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				205D65E51BEB1B500014FD4E /* HorizonalTableViewController.swift */,
+				205D65E71BEB1B710014FD4E /* TitleBarView.swift */,
+				205D65E91BEB1BC80014FD4E /* SwipableViewController.swift */,
+			);
+			path = SwipableViewController;
+			sourceTree = "<group>";
+		};
+		205D65ED1BEB1D6C0014FD4E /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				205D65EE1BEB1D760014FD4E /* Homepage.storyboard */,
+				205D65F21BEB1EB40014FD4E /* HomepageViewController.swift */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
 		2072513B1BE87D83002EEE28 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,7 +241,14 @@
 		20C676DF1BE2449B00B977CF /* OSC_Alatan */ = {
 			isa = PBXGroup;
 			children = (
+				205D65D21BEB18450014FD4E /* MainViewControllers */,
 				2072513B1BE87D83002EEE28 /* Main */,
+				205D65CE1BEB17290014FD4E /* 综合 */,
+				205D65CF1BEB17450014FD4E /* 动弹 */,
+				205D65D11BEB176F0014FD4E /* 发现 */,
+				205D65D01BEB17550014FD4E /* 用户 */,
+				205D65DB1BEB1A520014FD4E /* 博客 */,
+				205D65DD1BEB1A520014FD4E /* 新闻 */,
 				20C676E01BE2449B00B977CF /* AppDelegate.swift */,
 				20C676E21BE2449B00B977CF /* ViewController.swift */,
 				20C676E71BE2449B00B977CF /* Assets.xcassets */,
@@ -292,6 +394,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				20C676EB1BE2449B00B977CF /* LaunchScreen.storyboard in Resources */,
+				205D65EC1BEB1D2C0014FD4E /* Discover.storyboard in Resources */,
+				205D65EF1BEB1D760014FD4E /* Homepage.storyboard in Resources */,
 				20C676E81BE2449B00B977CF /* Assets.xcassets in Resources */,
 				20C676E61BE2449B00B977CF /* Main.storyboard in Resources */,
 			);
@@ -366,11 +470,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				205D65F31BEB1EB40014FD4E /* HomepageViewController.swift in Sources */,
+				205D65EA1BEB1BC80014FD4E /* SwipableViewController.swift in Sources */,
+				205D65E61BEB1B500014FD4E /* HorizonalTableViewController.swift in Sources */,
 				207251461BE886AB002EEE28 /* SideMenuController.swift in Sources */,
 				20C676E31BE2449B00B977CF /* ViewController.swift in Sources */,
+				205D65D41BEB18690014FD4E /* OSCObjsViewController.swift in Sources */,
+				205D65DF1BEB1A520014FD4E /* BlogsViewController.swift in Sources */,
+				205D65E81BEB1B710014FD4E /* TitleBarView.swift in Sources */,
 				207251441BE88689002EEE28 /* OSCTabBarController.swift in Sources */,
 				20C676E11BE2449B00B977CF /* AppDelegate.swift in Sources */,
+				205D65F11BEB1E5F0014FD4E /* DiscoverViewController.swift in Sources */,
 				207251401BE87FF3002EEE28 /* RootViewController.swift in Sources */,
+				205D65E01BEB1A520014FD4E /* NewsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
