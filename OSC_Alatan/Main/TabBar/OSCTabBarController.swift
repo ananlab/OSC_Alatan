@@ -29,7 +29,7 @@ class OSCTabBarController: UITabBarController {
         let homePageNav = homePageSB.instantiateViewControllerWithIdentifier("Nav")
         
         
-        
+        // 构建 TabBar 控制器
         self.viewControllers = [newsSVC, tweetsSVC, UIViewController(), discoverNav, homePageNav]
         let titles = ["综合", "动弹", "", "发现", "我"]
         let images = ["tabbar-news", "tabbar-tweet", "", "tabbar-discover", "tabbar-me"]
@@ -47,15 +47,4 @@ class OSCTabBarController: UITabBarController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
