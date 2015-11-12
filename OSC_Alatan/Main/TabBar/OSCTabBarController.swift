@@ -10,11 +10,27 @@ import UIKit
 
 class OSCTabBarController: UITabBarController {
 
+    var newsViweCtl: NewsViewController?
+    var hotNewsViewCtl: NewsViewController?
+    var blogViewCtl: BlogsViewController?
+    var hotBlogViewCtl: BlogsViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        /*暂时简单初始化综合模块里几个子控制器*/
+        // 资讯
+        newsViweCtl = NewsViewController()
+        // 热门
+        hotNewsViewCtl = NewsViewController()
+        // 博客
+        blogViewCtl = BlogsViewController()
+        // 推荐
+        hotBlogViewCtl = BlogsViewController()
+        
+        
         // 综合
-        let newsSVC: SwipableViewController = SwipableViewController()
+        let newsSVC: SwipableViewController = SwipableViewController().initWithTitle("综合", subTitles: ["资讯", "热点", "博客", "推荐"], controllers:  [newsViweCtl!, hotNewsViewCtl!, blogViewCtl!, hotBlogViewCtl!]) as! SwipableViewController
         
         // 动弹
         let tweetsSVC: SwipableViewController = SwipableViewController()
@@ -30,7 +46,12 @@ class OSCTabBarController: UITabBarController {
         
         
         // 构建 TabBar 控制器
-        self.viewControllers = [newsSVC, tweetsSVC, UIViewController(), discoverNav, homePageNav]
+        self.viewControllers = [self.addNavigationItemForViewController(newsSVC),
+            self.addNavigationItemForViewController(tweetsSVC),
+            UIViewController(),
+            discoverNav,
+            homePageNav]
+        
         let titles = ["综合", "动弹", "", "发现", "我"]
         let images = ["tabbar-news", "tabbar-tweet", "", "tabbar-discover", "tabbar-me"]
         for (index, obj) in (self.tabBar.items?.enumerate())! {
@@ -46,5 +67,18 @@ class OSCTabBarController: UITabBarController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    func addNavigationItemForViewController(vController: UIViewController) -> UINavigationController {
+        let navCtrl = UINavigationController.init(rootViewController: vController)
+        
+        vController.navigationItem.leftBarButtonItem = UIBarButtonItem.init(image: UIImage(named: "navigationbar-sidebar"), style: UIBarButtonItemStyle.Plain, target: self, action: "onClickMenuButton")
+        
+        return navCtrl
+    }
+    
+    func onClickMenuButton() {
+        self.sideMenuViewController.presentLeftMenuViewController()
     }
 }
