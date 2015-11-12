@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2021CAD51BF46FC3001C6A0C /* UIColor+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2021CAD41BF46FC3001C6A0C /* UIColor+Extention.swift */; };
 		205D65D41BEB18690014FD4E /* OSCObjsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65D31BEB18690014FD4E /* OSCObjsViewController.swift */; };
 		205D65DF1BEB1A520014FD4E /* BlogsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65DC1BEB1A520014FD4E /* BlogsViewController.swift */; };
 		205D65E01BEB1A520014FD4E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 205D65DE1BEB1A520014FD4E /* NewsViewController.swift */; };
@@ -48,6 +49,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2021CAD41BF46FC3001C6A0C /* UIColor+Extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extention.swift"; sourceTree = "<group>"; };
 		205D65D31BEB18690014FD4E /* OSCObjsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OSCObjsViewController.swift; sourceTree = "<group>"; };
 		205D65DC1BEB1A520014FD4E /* BlogsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlogsViewController.swift; sourceTree = "<group>"; };
 		205D65DE1BEB1A520014FD4E /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 				FDA223141EAB6051297BDCE9 /* Pods.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2021CACE1BF46979001C6A0C /* 扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				2021CAD41BF46FC3001C6A0C /* UIColor+Extention.swift */,
+			);
+			path = "扩展";
 			sourceTree = "<group>";
 		};
 		205D65CE1BEB17290014FD4E /* 综合 */ = {
@@ -249,6 +259,7 @@
 				205D65D01BEB17550014FD4E /* 用户 */,
 				205D65DB1BEB1A520014FD4E /* 博客 */,
 				205D65DD1BEB1A520014FD4E /* 新闻 */,
+				2021CACE1BF46979001C6A0C /* 扩展 */,
 				20C676E01BE2449B00B977CF /* AppDelegate.swift */,
 				20C676E21BE2449B00B977CF /* ViewController.swift */,
 				20C676E71BE2449B00B977CF /* Assets.xcassets */,
@@ -476,6 +487,7 @@
 				207251461BE886AB002EEE28 /* SideMenuController.swift in Sources */,
 				20C676E31BE2449B00B977CF /* ViewController.swift in Sources */,
 				205D65D41BEB18690014FD4E /* OSCObjsViewController.swift in Sources */,
+				2021CAD51BF46FC3001C6A0C /* UIColor+Extention.swift in Sources */,
 				205D65DF1BEB1A520014FD4E /* BlogsViewController.swift in Sources */,
 				205D65E81BEB1B710014FD4E /* TitleBarView.swift in Sources */,
 				207251441BE88689002EEE28 /* OSCTabBarController.swift in Sources */,

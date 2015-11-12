@@ -10,19 +10,39 @@ import UIKit
 
 class HorizonalTableViewController: UITableViewController {
 
+    var _controllers: Array<AnyObject>?
+    
+    // 自定义初始化方法
+    func initWithViewControllers(controllers: [AnyObject]) -> HorizonalTableViewController {
+        
+        
+        _controllers = controllers
+        for vc: AnyObject in controllers {
+            
+            let controller = vc as! UIViewController
+            self.addChildViewController(controller)
+        }
+        return self
+    }
+    
+    init() {
+        
+        super.init(nibName: nil, bundle: nil)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     // MARK: - Table view data source
